@@ -21,7 +21,7 @@ void lerCarta(Carta *carta) {
     printf("Codigo: ");
     scanf("%s", carta->codigo);
     printf("Nome da Cidade: ");
-    scanf(" %[^\n]s", carta->nomeCidade);
+    scanf(" %[^\n]", carta->nomeCidade);
     printf("Populacao: ");
     scanf("%lu", &carta->populacao);
     printf("Area (km²): ");
